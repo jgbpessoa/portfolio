@@ -1,0 +1,30 @@
+@use "../util" as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-abril);
+  color: #000;
+
+  .logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .navbar {
+    &__list {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__item a {
+      font-size: 2rem;
+      color: #000;
+      text-decoration: none;
+      margin-left: 2rem;
+    }
+  }
+}

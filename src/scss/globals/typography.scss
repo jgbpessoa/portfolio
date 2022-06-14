@@ -1,0 +1,12 @@
+@use "../util" as *;
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.2rem;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
